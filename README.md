@@ -1,7 +1,8 @@
 # Human-Activity-Recognition-With-Smart-Phone
 ## Overview
 Smart phones have become a most useful tool in our daily life for communication with advanced technology provided intelligent assistance to the user in their everyday activities. The portable working framework with computing ability and interconnectivity, application programming interfaces for executing outsiders’ tools and applications, mobile phones have highlights such as cameras, GPS, web browsers so on., and implanted sensors such as **accelerometers** and **gyroscope** which permits the improvement of applications in view of client’s specific area, movement and context.
-![Frame Work]([image_url](https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/Frame_Work.drawio.png))
+![Project Framework](https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/Frame_Work.drawio.png
+)
 
 
 ## Use of Feature Selection Techniques: 
