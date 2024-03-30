@@ -43,7 +43,7 @@ This project is to build a model that *predicts the human activities* such as __
 
 ## Solution
 We have a fairly small data set of Human Activity Recognition that has been labeled as “**Walking**”, “**Walking Upstairs**”, “**Walking Downstairs**”, “**Standing**”, “**Sitting**” and “**Lying**”.  We had downloaded HAR Dataset from UCI dataset storehouse .**Firstly** i used the blogs mentioned above as a reference to understand the domain Well. **Secondly**, After collection of dataset i.e. Data acquisition, with help of domain knowledge and EDA i carefully examined each feature,**Thirdly**,I used **feature selection techinques** so that to reduce the multicollinearity and remove the unwanted features which are not contributing in determining the output.**Then** we use pre-engineered dataset with classical machine learning (ML) to learn from the data, and predict the human Activity.
-
+https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/download.png
 
 ## Which type of ML Problem is this?
 Human activity recognition, **is a challenging time series classification task.**
