@@ -68,6 +68,10 @@ OR in other words you can call, it is a **multiclass classification problem**, f
 <div align="center">
   <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/confusion_matrix.png" alt="Confusion Matrix">
 </div>
+
+<div align="center">
+  <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/download%20(1).png" alt="Classification Report">
+</div>
   We can see clearly in this confusion matrix plot our model is doing very well for class Laying and Walking and good for Standing, Walking_Downstairs and Walking_Upstairs but our model getting confused with Sitting Class. 
 
 - **Multi-class log-loss**: We know that Multi-class log-loss is very important metric for multiclass ML problem. 
