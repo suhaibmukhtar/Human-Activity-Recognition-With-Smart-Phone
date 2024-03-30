@@ -26,10 +26,12 @@ Final Feature Count: Reduced to 100 features after applying feature selection te
 Accuracy Improvement: Model accuracy increased from 95% to 99% after feature selection.
 These feature selection techniques were crucial in enhancing the performance, reducing computational complexity, and improving the interpretability of the models used in this project.
 
+## Objectives
 __Activity Recognition__ (AR) is monitoring the liveliness of a person by using smart phone. Smart phones are used in a wider manner and it becomes one of the ways to identify the human’s environmental changes by using the sensors in smart mobiles. *Smart phones are equipped in detecting sensors like gyroscope and accelerometer*. The contraption is demonstrated to examine the state of an individual. 
 
 __Human Activity Recognition__ (HAR) framework *collects the raw data from sensors and observes the human movement using different deep learning approach*. Deep learning models are proposed to identify motions of humans with plausible high accuracy by using sensed data. 
 
+__Feature Selection__ (FS) selecting the features that are contributing in determining the output variable. Selecting the subset of features from the features of dataset, using only subset of features without letting drop in the accuracy of the model.
 __HAR Dataset from UCI dataset storehouse is utilized__. This dataset is collected from 30 persons (referred as subjects in this dataset), performing different activities with a smartphone to their waists. The data is recorded with the help of sensors (*accelerometer and Gyroscope*) in that smartphone. This experiment was video recorded to label the data manually.<p>
 
 This project is to build a model that *predicts the human activities* such as __Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing__ and __Laying__.
