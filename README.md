@@ -9,15 +9,15 @@ Smart phones have become a most useful tool in our daily life for communication 
 The dataset used in this project is highly dimensional, with 563 features. Such high dimensionality can lead to issues like multicollinearity, increased computational cost, and reduced interpretability of the models. To mitigate these challenges and improve model performance, several feature selection techniques were applied.
 
 ## Techniques Used
-<b>1. Variance Threshold:</b>
+### 1. Variance Threshold:
 Purpose: Removes constant or quasi-constant features that do not add significant information.
 Impact: Reduced the number of features by eliminating those with low variance, leading to a more concise and relevant feature set.
 
-<b>2.Correlation Analysis:</b>
+### 2.Correlation Analysis:
 Purpose: Identifies and removes highly correlated features to reduce multicollinearity.
 Impact: Improved model stability and interpretability by removing redundant features and focusing on independent predictors.
 
-<b>3.ANOVA (Analysis of Variance):</b>
+### 3.ANOVA (Analysis of Variance):
 Purpose: Selects features based on F-statistics or F-ratio, especially useful for numeric features and categorical output.
 Impact: Further refined the feature set, retaining features that have a significant impact on the target variable.
 <b>Results After Applying Feature Selection</b>
