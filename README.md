@@ -51,6 +51,9 @@ We have a fairly small data set of Human Activity Recognition that has been labe
 <div align="center">
   <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/raw/main/images/download.png" alt="Data Distribution">
 </div>
+<div align="center">
+  <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/pie.png" alt="Pie Distribution">
+</div>
 
 
 ## Which type of ML Problem is this?
