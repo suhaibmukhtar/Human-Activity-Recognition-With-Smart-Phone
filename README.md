@@ -82,8 +82,8 @@ These feature selection techniques were crucial in enhancing the performance, re
 
 ## Confusion Matrix of SVM Before and After Feature Selection
 <div style="display: flex;">
-    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/svm_before_conf.pn" alt="Confusion-matrix of SVM Before" style="width: 45%;">
-    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/svm_after_conf.pn" alt="Confusion-matrix of SVM After" style="width: 45%;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/svm_before_conf.png" alt="Confusion-matrix of SVM Before" style="width: 45%;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/svm_after_conf.png" alt="Confusion-matrix of SVM After" style="width: 45%;">
 </div>
 
 ## Classification Report of SVM Before and After Feature Selection
