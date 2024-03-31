@@ -68,13 +68,29 @@ Impact: Further refined the feature set, retaining features that have a signific
 
 ### Accuracy Improvement: Model accuracy increased from 95% to 99% after feature selection .
 These feature selection techniques were crucial in enhancing the performance, reducing computational complexity, and improving the interpretability of the models used in this project.
+## Confusion Matrix of Logistic Regression Before and After Feature Selection
 <div style="display: flex;">
-    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/conf_before.png" alt="Confusion-matrix of LR Before" style="width: 45%;">
-    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/confusion_matrix.png" alt="Confusion-matrix of LR After" style="width: 45%;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/conf_LR_before.png" alt="Confusion-matrix of LR Before" style="width: 45%;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/conf_lr_after.png" alt="Confusion-matrix of LR After" style="width: 45%;">
 </div>
 
+## Classification Report of Logistic Regression Before and After Feature Selection
+<div style="display: flex;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/cr_lr_before.png" alt="CR of LR Before" style="width: 45%;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/cr_lr_after.png" alt="CR of LR After" style="width: 45%;">
+</div>
 
+## Confusion Matrix of SVM Before and After Feature Selection
+<div style="display: flex;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/svm_before_conf.pn" alt="Confusion-matrix of SVM Before" style="width: 45%;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/svm_after_conf.pn" alt="Confusion-matrix of SVM After" style="width: 45%;">
+</div>
 
+## Classification Report of SVM Before and After Feature Selection
+<div style="display: flex;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/cr_svm_before.png" alt="CR of SVM Before" style="width: 45%;">
+    <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/cr_svm_after.png" alt="CR of SVM After" style="width: 45%;">
+</div>
 
 ## DataSet Description
 __HAR Dataset from UCI dataset storehouse is utilized__. This dataset is collected from 30 persons (referred as subjects in this dataset), performing different activities with a smartphone to their waists. The data is recorded with the help of sensors (*accelerometer and Gyroscope*) in that smartphone. This experiment was video recorded to label the data manually.<p>
