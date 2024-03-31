@@ -1,17 +1,32 @@
 # Human-Activity-Recognition-With-Smart-Phone
+## Overview
+Smart phones and Smart Watches have become a most useful tool in our daily life for communication with advanced technology provided intelligent assistance to the user in their everyday activities. The portable working framework with computing ability and interconnectivity, application programming interfaces for executing outsiders’ tools and applications, mobile phones have highlights such as cameras, GPS, web browsers so on., and implanted sensors such as **accelerometers** and **gyroscope** which permits the improvement of applications in view of client’s specific area, movement and context.<p>
+  As these algorithms are used in devices like Smart Watches and Smart Phones with low computation power, it would be the good practice to reduce the Multicollinearity, and select only the best features which are contributing in determing the Activity recognition</p>
 ## Objectives
 __Activity Recognition__ (AR) is monitoring the liveliness of a person by using smart phone. Smart phones are used in a wider manner and it becomes one of the ways to identify the human’s environmental changes by using the sensors in smart mobiles. *Smart phones are equipped in detecting sensors like gyroscope and accelerometer*. The contraption is demonstrated to examine the state of an individual.<br> 
                 This project is to build a model that *predicts the human activities* such as __Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing__ and __Laying__ as done in Smart-Watches.
 
-__Feature Selection__ (FS) selecting the features that are contributing in determining the output variable. Selecting the subset of features from the features of dataset, using only subset of features without letting drop in the accuracy of the model.
+__Feature Selection__ (FS) selecting the features that are contributing in determining the output variable. Selecting the subset of features from the features of dataset, using only subset of features without letting drop in the accuracy of the model. As these algorithms are executed on the devices with low computational power.
 
 __Human Activity Recognition__ (HAR) framework *collects the raw data from sensors and observes the human movement using different deep learning approach*. Deep learning models are proposed to identify motions of humans with plausible high accuracy by using sensed data. 
-## Overview
-Smart phones and Smart Watches have become a most useful tool in our daily life for communication with advanced technology provided intelligent assistance to the user in their everyday activities. The portable working framework with computing ability and interconnectivity, application programming interfaces for executing outsiders’ tools and applications, mobile phones have highlights such as cameras, GPS, web browsers so on., and implanted sensors such as **accelerometers** and **gyroscope** which permits the improvement of applications in view of client’s specific area, movement and context.
-![Project Framework](https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/Frame_Work.drawio.png
-)
-# Methodology Followed
-## 1. Check and Display Duplicate Features in the Dataset
+
+## Scope of Project: Activity Recognition in Smartphones and Smartwatches
+
+The scope of this project revolves around developing a system for activity recognition in both smartphones and smartwatches. The goal is to leverage machine learning algorithms to accurately identify and classify different activities performed by users, such as walking, running, sitting, standing, etc. The project focuses on real-time analysis, meaning that the recognition process should be efficient and effective for immediate use.
+<h1 align='center'>Methodology Followed</h1>
+
+![Project Framework](https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/Frame_Work.drawio.png)
+## 1. Download the Dataset from Kaggle/UCI ML repository
+###  Data Directory
+   ![npic03](https://user-images.githubusercontent.com/49862149/91126397-7c7f1000-e6c1-11ea-94e9-c909b34df502.jpg)
+
+-  ![#FF5733](https://via.placeholder.com/8x24/FF5733/000000?text=+) __Important Note__: When I am applying Machine learning algorithm, I use these experts created feature data. When we are applying Deep learning algorithm, I use RAW sensors DATA for predicting Human Activity.
+   ![npic4](https://user-images.githubusercontent.com/49862149/91137130-25326d00-e6cc-11ea-99a0-1cee55d314c0.jpg)
+ 
+-  ![#FF5733](https://via.placeholder.com/8x24/FF5733/000000?text=+) The data is provided as a single zip file that is about **58 megabytes** in size. The direct link for this download is: [**UCI HAR Dataset.zip**](https://archive.ics.uci.edu/ml/machine-learning-databases/00364/dataset_uci.zip)
+
+## 2. Perform the Data-Prepr
+## 3. Check and Display Duplicate Features in the Dataset
 <div align="center">
   <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/duplicated_cols.png" alt="Duplicated Features">
 </div>
@@ -34,6 +49,10 @@ Impact: Further refined the feature set, retaining features that have a signific
 ## Results After Applying Feature Selection</b>
 ### Initial Feature Count: 563 features
 ### Final Feature Count: Reduced to 100 features after applying feature selection techniques.
+<div align="center">
+  <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/features_after_feature_selection.png" alt="Duplicated Features">
+</div>
+
 ### Accuracy Improvement: Model accuracy increased from 95% to 99% after feature selection.
 These feature selection techniques were crucial in enhancing the performance, reducing computational complexity, and improving the interpretability of the models used in this project.
 
@@ -94,13 +113,7 @@ OR in other words you can call, it is a **multiclass classification problem**, f
 
 
    
-###  Data Directory
-   ![npic03](https://user-images.githubusercontent.com/49862149/91126397-7c7f1000-e6c1-11ea-94e9-c909b34df502.jpg)
 
--  ![#FF5733](https://via.placeholder.com/8x24/FF5733/000000?text=+) __Important Note__: When I am applying Machine learning algorithm, I use these experts created feature data. When we are applying Deep learning algorithm, I use RAW sensors DATA for predicting Human Activity.
-   ![npic4](https://user-images.githubusercontent.com/49862149/91137130-25326d00-e6cc-11ea-99a0-1cee55d314c0.jpg)
- 
--  ![#FF5733](https://via.placeholder.com/8x24/FF5733/000000?text=+) The data is provided as a single zip file that is about **58 megabytes** in size. The direct link for this download is: [**UCI HAR Dataset.zip**](https://archive.ics.uci.edu/ml/machine-learning-databases/00364/dataset_uci.zip)
 
 ## Train and Test ratio
 30 subjects(*volunteers*) data is randomly split to __80%__ of the volunteers were taken as __training data__ and remaining __20%__ subjects’ recordings were taken for __test data__.  _e.g_. 21 subjects for train and nine for test.
