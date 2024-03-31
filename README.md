@@ -62,6 +62,7 @@ Impact: Further refined the feature set, retaining features that have a signific
 ## Results After Applying Feature Selection</b>
 ### Initial Feature Count: 563 features
 ### Final Feature Count: Reduced to 100 features after applying feature selection techniques.
+
 <div align="center">
   <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/features_after_feature_selection.png" alt="Duplicated Features">
 </div>
@@ -119,18 +120,9 @@ OR in other words you can call, it is a **multiclass classification problem**, f
 
 ## What is the best performance metric for this Problem?
 - **Accuracy** : For any model we have printed the over all accuracy with this simple   “Accuracy” metric.
+- **SVM** Machine learning algorithm showed best accuracy in both the cases.
 
-- **Confusion Matrix** : The very important thing that the confusion Matrix had told us what type of errors and what types of confusion are happening. 
-    * Simply for understanding this metric for this project view, we know that we have 6 class label and often times it could so happen that our Model will be confused between sitting or standing, and walking upstairs or walking downstairs. 
-    * So, the confusion Matrix is a very-very important way of understanding which class is your Algorithm or ML model is doing very well or for which classes your Algorithm or ML model is getting confused.
-<div align="center">
-  <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/confusion_matrix.png" alt="Confusion Matrix">
-</div>
 
-<div align="center">
-  <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/download%20(1).png" alt="Classification Report">
-</div>
-  We can see clearly in this confusion matrix plot our model is doing very well for class Laying and Walking and good for Standing, Walking_Downstairs and Walking_Upstairs but our model getting confused with Sitting Class. 
 
 - **Multi-class log-loss**: We know that Multi-class log-loss is very important metric for multiclass ML problem. 
 
