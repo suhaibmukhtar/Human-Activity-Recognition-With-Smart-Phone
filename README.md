@@ -66,7 +66,7 @@ Impact: Further refined the feature set, retaining features that have a signific
   <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/features_after_feature_selection.png" alt="Duplicated Features">
 </div>
 
-### Accuracy Improvement: Model accuracy increased from 95% to 99% after feature selection.
+### Accuracy Improvement: Model accuracy increased from 95% to 99% after feature selection .
 These feature selection techniques were crucial in enhancing the performance, reducing computational complexity, and improving the interpretability of the models used in this project.
 
 ## DataSet Description
