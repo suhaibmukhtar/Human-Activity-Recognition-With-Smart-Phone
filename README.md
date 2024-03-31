@@ -25,13 +25,26 @@ The scope of this project revolves around developing a system for activity recog
  
 -  ![#FF5733](https://via.placeholder.com/8x24/FF5733/000000?text=+) The data is provided as a single zip file that is about **58 megabytes** in size. The direct link for this download is: [**UCI HAR Dataset.zip**](https://archive.ics.uci.edu/ml/machine-learning-databases/00364/dataset_uci.zip)
 
-## 2. Perform the Data-Prepr
-## 3. Check and Display Duplicate Features in the Dataset
+## 2. Perform the Data-Preprocessing and EDA:
+1) Perform the feature scaling so that to restric all the feature under the same scale.
+2) Check for distribution of data.
+<div align="center">
+  <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/raw/main/images/download.png" alt="Data Distribution">
+</div>
+<div align="center">
+  <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/pie.png" alt="Pie Distribution">
+</div>
+3) Check for missing values, if exist then replace them with mean/medain for numerical featues and replace with mode for categorical features.
+
+
+   
+## 2.1. Check and Display Duplicate Features in the Dataset
 <div align="center">
   <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/duplicated_cols.png" alt="Duplicated Features">
 </div>
 
-## 2) Use of Feature Selection Techniques for Selecting Optimal features: 
+## 3) Feature Engineering
+### Use of Feature Selection Techniques for Selecting Optimal features: 
 The dataset used in this project is highly dimensional, with 563 features. Such high dimensionality can lead to issues like multicollinearity, increased computational cost, and reduced interpretability of the models. To mitigate these challenges and improve model performance, several feature selection techniques were applied.
 ### Techniques Used
 ### a) Variance Threshold:
@@ -73,12 +86,6 @@ __HAR Dataset from UCI dataset storehouse is utilized__. This dataset is collect
 
 ## Solution
 We have a fairly small data set of Human Activity Recognition that has been labeled as “**Walking**”, “**Walking Upstairs**”, “**Walking Downstairs**”, “**Standing**”, “**Sitting**” and “**Lying**”.  We had downloaded HAR Dataset from UCI dataset storehouse .**Firstly** i used the blogs mentioned above as a reference to understand the domain Well. **Secondly**, After collection of dataset i.e. Data acquisition, with help of domain knowledge and EDA i carefully examined each feature,**Thirdly**,I used **feature selection techinques** so that to reduce the multicollinearity and remove the unwanted features which are not contributing in determining the output.**Then** we use pre-engineered dataset with classical machine learning (ML) to learn from the data, and predict the human Activity.**At End**, we evaluated all the models using performance measures such as Accuracy-Score, Confusion Matrix and Classification report, 
-<div align="center">
-  <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/raw/main/images/download.png" alt="Data Distribution">
-</div>
-<div align="center">
-  <img src="https://github.com/suhaibmukhtar/Human-Activity-Recognition-With-Smart-Phone/blob/main/images/pie.png" alt="Pie Distribution">
-</div>
 
 
 ## Which type of ML Problem is this?
