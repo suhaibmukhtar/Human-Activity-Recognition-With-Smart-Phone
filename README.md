@@ -121,9 +121,8 @@ OR in other words you can call, it is a **multiclass classification problem**, f
 ## What is the best performance metric for this Problem?
 - **Accuracy** : For any model we have printed the over all accuracy with this simple   “Accuracy” metric.
 - **SVM** Machine learning algorithm showed best accuracy in both the cases.
-
-
-
+- **Confusion-Matix** : Confusion is a performance measure and it well describes performance of the models.
+- **Classification-Report** : Classification Report is one of the best report for showing various peformance measure and shows how well is our model behaving.
 - **Multi-class log-loss**: We know that Multi-class log-loss is very important metric for multiclass ML problem. 
 
 ## Business Objectives and Constraints
